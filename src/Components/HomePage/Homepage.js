@@ -10,12 +10,7 @@ function Homepage() {
       <div>
         <img src={headShot} alt="headShot" width={200}/> 
       </div>
-      <div className='about-section'>
-        <h3>About</h3>
-        <p>
-        {happy}
-        </p>
-      </div>
+      <h1> HELLO 👋</h1>
     </section>
   );
 }
