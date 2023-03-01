@@ -1,3 +1,4 @@
+
 import React from 'react'
 import '../Contact/Contact.css'
 import ProfilePic from '../../Images/ProfilePic.jpg';
@@ -5,7 +6,6 @@ import LinkPic from '../../Images/LinkedIn.png'
 import GitHub from '../../Images/GitHub-Emblem.png'
 
 function Contact() {
-
   return (
     <section className="contact-container">
       <div className="card">
@@ -36,4 +36,6 @@ function Contact() {
   );
 }
 
+
 export default Contact
+
