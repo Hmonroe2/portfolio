@@ -10,6 +10,7 @@ function Nav() {
     setLink('/')
     changeLink()
   }
+
   const changeLink = () => {
     if (link !== '/About') {
       setAboutText('About')
@@ -17,13 +18,40 @@ function Nav() {
     }
   }
 
+  //* <button class="button-48" role="button">
+  // *  {' '}
+  // *  <span class="text"> Button 48</span>{' '}
+  //* </button>;
   return (
     <div>
       <Link to={link}>
-        <button onClick={() => { changeText() }}> {aboutText} </button>
+        <button
+          className="button"
+          role="button"
+          onClick={() => {
+            changeText();
+          }}>
+          <span className="text">{aboutText}</span>
+        </button>
       </Link>
-      <button> Work Experience </button>
-      <button> Contact</button>
+      <Link to="/Projects">
+        <button
+          className="button"
+          onClick={() => {
+            changeText();
+          }}>
+          <span className="text">Projects</span>
+        </button>
+      </Link>
+      <Link to="/Contact">
+        <button className="button">
+          {' '}
+          <span className="text">Contact</span>
+        </button>
+      </Link>
+      <a href={require('../../Images/HunterResume.pdf')} target="_blank">
+        <button className="button"> Resume </button>
+      </a>
     </div>
   );
 }
