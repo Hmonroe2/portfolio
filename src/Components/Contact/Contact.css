@@ -1,0 +1,40 @@
+.card{
+  border: 2px solid blue ;
+  height: 60vh; 
+  width: 25%;
+  contain: content;
+  margin-right:10px; 
+}
+.upper-card{
+  background-image: url('../../Images/top.jpeg');
+  height: 25%; 
+  contain: content;
+}
+.link-image{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top:103px;
+  right: 98px; 
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.contact-container{
+  display:flex;
+  justify-content: center;
+ 
+}
+.name{
+  margin-top:90px;
+}
+.link-logo{
+  margin-top:120px;
+}
+.upper-card-github{
+  background-color: black;
+  height: 25%;
+}
+.git-logo{
+  margin-top: 90px;
+  width:200px; 
+}

@@ -1,8 +1,9 @@
-import React from 'react';
-import '../Contact/Contact.css';
+
+import React from 'react'
+import '../Contact/Contact.css'
 import ProfilePic from '../../Images/ProfilePic.jpg';
-import LinkPic from '../../Images/LinkedIn.png';
-import GitHub from '../../Images/GitHub-Emblem.png';
+import LinkPic from '../../Images/LinkedIn.png'
+import GitHub from '../../Images/GitHub-Emblem.png'
 
 function Contact() {
   return (
@@ -35,4 +36,6 @@ function Contact() {
   );
 }
 
-export default Contact;
+
+export default Contact
+
